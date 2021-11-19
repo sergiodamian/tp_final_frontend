@@ -12,6 +12,7 @@ import { ProductComponent } from './components/product/product.component';
 
 //Services
 import { DataProductService } from './services/data-product.service';
+import { VentasComponent } from './components/ventas/ventas.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { DataProductService } from './services/data-product.service';
     NavbarComponent,
     AddProductComponent,
     ProductsListComponent,
-    ProductComponent
+    ProductComponent,
+    VentasComponent
   ],
   imports: [
     BrowserModule,
